@@ -1,0 +1,124 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the products table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  #topBar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  #topBar ul li:hover > ul {
+    display: block;
+  }
+  
+  #topBar ul ul a {
+    color: white;
+    font-size: 14px;
+    margin-right: 0;
+  }
+  
+  #topBar ul ul a:hover {
+    font-weight: 900;
+  }
+  
+  #topBar ul li {
+    position: relative;
+  }
+  
+  #topBar ul li:hover {
+    background-color: #444;
+  }
+  
+  #topBar ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #topBar ul li:hover > ul {
+    display: block;
+  }
+  
+  #topBar ul li ul li {
+    float: none;
+    width: 200px;
+    background-color: #333;
+    border-bottom: 1px solid #444;
+  }
+  
+  #topBar ul li ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #topBar ul li ul li a:hover {
+    background-color: #444;
+  }
+  
+  #topBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #topBar li {
+    margin: 0 10px;
+  }
+
+  #topBar a {
+    margin: 10px;
+  }
+  
